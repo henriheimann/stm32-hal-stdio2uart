@@ -8,3 +8,6 @@ stdio2uart_init(&huart2);
 
 ## Supported Platforms
 STM32L0 and STM32L4 are supported. The HAL header includes for other platforms may be added in `stdio2uart.h`.
+
+## Supported Features
+For now, only routing of the output streams to UART is supported.
